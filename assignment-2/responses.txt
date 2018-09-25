@@ -1,0 +1,25 @@
+### Ariyana Pilskalns
+----
+## 1. One way data travels on the internet
+Information and data travels from one IP address to another through server connections
+ in packages consisting of binary code. 
+
+
+## 2. What is the relationship between an IP and the DNS?
+An IP address is a unique address for every device that allows for information to move
+to and from your device. The DNS is a server that associates words and URLs with the appropriate IP address and allows us
+to navigate the internet with ease.
+
+
+
+## 3. What is a cookie?
+
+A cookie remembers information like your login and password for
+protected websites. This cookie in your browser recognizes you from previous visits and can make decisions
+based off of that information.
+
+
+## 4. Three Parts of an URL
+* Protocol
+* Domain Name
+* Path
