@@ -4,6 +4,7 @@ body, html {
   font-size: 90%;
   font-weight: 300;
   font-family: "Ariel";
+  text-align: center;
 }
 
 #description{
@@ -17,6 +18,7 @@ body, html {
 }
 #email{
   margin-bottom: 30px;
+
 }
 
 }
@@ -35,6 +37,13 @@ iframe{
   display: flex;
   margin-left: auto;
   margin: auto;
+}
+
+link{
+  color:#E84a5f;
+}
+active-link{
+  color:#ff847c;
 }
 .title{
   font-size: 50;
@@ -92,30 +101,16 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 5px 5px 7px Black;
+
 }
 
 .sections{
 
-  background-image: url(../images/paper.jpg);
+  background-color: #FECEAB;
   padding: .5px;
-  /* background-size: cover; */
   background-position: top;
-  /* background-repeat: no-repeat; */
   margin-top: 20px;
-  box-shadow: 5px 5px 7px black;
-}
-.postcard{
-  border-radius: 10px;
-  background-image: url(../images/);
-  /* padding: .5px; */
-  background-size: 600px 450px;
-  background-position: center;
 
-  /* background-position: top; */
-  background-repeat: no-repeat;
-  /* margin-top: 20px; */
-  /* box-shadow: 5px 5px 7px #000; */
 }
 .steps{
   padding: 10px;
