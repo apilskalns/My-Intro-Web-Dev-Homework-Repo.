@@ -3,11 +3,11 @@ body, html {
   margin: 0;
   font-size: 90%;
   font-weight: 300;
-  font-family: "cooper", Cooper, monospace;
+  font-family: "Ariel";
 }
 
 #description{
-  background-color: #fecea8;
+  background-color: #ff847c;
   margin: 5px;
   padding: 10px;
   border-radius: 0px;
@@ -81,7 +81,9 @@ iframe{
    background: #e84a5f;
    }
 .page{
-  background-color:#2a363b; ;
+
+  background-color:#2a363b;
+
 }
 .content{
   padding: 70px;
@@ -90,22 +92,18 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: %; */
-
-  /* transform: translateX(50%); */
-  border-radius: 5px;
-  box-shadow: 5px 5px 7px #888;
+  box-shadow: 5px 5px 7px Black;
 }
 
 .sections{
-  border-radius: 10px;
-  background-image: url(../images/);
+
+  background-image: url(../images/paper.jpg);
   padding: .5px;
   /* background-size: cover; */
   background-position: top;
   /* background-repeat: no-repeat; */
   margin-top: 20px;
-  box-shadow: 5px 5px 7px #888;
+  box-shadow: 5px 5px 7px black;
 }
 .postcard{
   border-radius: 10px;
@@ -117,7 +115,7 @@ img{
   /* background-position: top; */
   background-repeat: no-repeat;
   /* margin-top: 20px; */
-  /* box-shadow: 5px 5px 7px #888; */
+  /* box-shadow: 5px 5px 7px #000; */
 }
 .steps{
   padding: 10px;
