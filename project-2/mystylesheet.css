@@ -1,0 +1,125 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 90%;
+  font-weight: 300;
+  font-family: "cooper", Cooper, monospace;
+}
+
+#description{
+  background-color: #fecea8;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 0px;
+  text-shadow: 3px 2px 3px #ccc;
+
+
+}
+#email{
+  margin-bottom: 30px;
+}
+
+}
+h1{
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+h2{
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+iframe{
+  padding: 25px;
+  display: flex;
+  margin-left: auto;
+  margin: auto;
+}
+.title{
+  font-size: 50;
+  opacity:1.0;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 2px 3px #777777;
+  border-radius: 0px;
+  background-color: #99b898;
+}
+
+.wrapper{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-gap:0.5em;
+  grid-auto-rows: minmax(50px, auto);
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.mainnav{
+  position: fixed;
+}
+
+.button {
+   text-decoration: none;
+   background: #E84a5f;
+   padding: 20px 40px;
+   border-radius: 0px;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #2a363b;
+   font-size: 17px;
+   text-align: center;
+   vertical-align: middle;
+
+   }
+.button:hover {
+   border-top-color: #E84a5f;
+   background: #e84a5f;
+   color: #ff847c;
+   }
+.button:active {
+   border-top-color: #e84a5f;
+   background: #e84a5f;
+   }
+.page{
+  background-color:#2a363b; ;
+}
+.content{
+  padding: 70px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: %; */
+
+  /* transform: translateX(50%); */
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px #888;
+}
+
+.sections{
+  border-radius: 10px;
+  background-image: url(../images/);
+  padding: .5px;
+  /* background-size: cover; */
+  background-position: top;
+  /* background-repeat: no-repeat; */
+  margin-top: 20px;
+  box-shadow: 5px 5px 7px #888;
+}
+.postcard{
+  border-radius: 10px;
+  background-image: url(../images/);
+  /* padding: .5px; */
+  background-size: 600px 450px;
+  background-position: center;
+
+  /* background-position: top; */
+  background-repeat: no-repeat;
+  /* margin-top: 20px; */
+  /* box-shadow: 5px 5px 7px #888; */
+}
+.steps{
+  padding: 10px;
+  margin:10px;
+}
