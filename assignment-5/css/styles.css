@@ -1,79 +1,32 @@
-body, html {
-  height: 100%;
-  margin: 0;
-  font-size: 90%;
-  font-weight: 300;
-  font-family: "Ariel";
+body {
+  background-image:("./images/seamless-background-80s14-.jpg");
+  background-repeat: repeat;
+  font-family: sans-serif;
   text-align: center;
 }
-
-
-h1{
-  color: black;
-  margin: 10px;
-  padding: 10px;
+h1+p {
+  background-color: black;
+  color: white;
+  padding: 5px;
 }
-h2{
-  color: Black;
-  margin: 10px;
-  padding: 10px;
-}
-iframe{
-  padding: 25px;
-  display: flex;
-  margin-left: auto;
-  margin: auto;
-}
-
-link{
-  color:#E84a5f;
-}
-active-link{
-  color:#ff847c;
-}
-.title{
-  font-size: 50;
-  opacity:1.0;
-  color: black;
-  text-align: center;
-  text-shadow: 3px 2px 3px #777777;
-  border-radius: 0px;
-  background-color: white;
-}
-
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.block{
-  width: 50%;
-  height: 50%;
-
-}
-
-#pink {
-  background-color: #Ff48c4;
+.text-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 400px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+     -ms-transform: translate(-50%, -50%); /* IE 9 */
+ -webkit-transform: translate(-50%, -50%); /* Safari 3-8 */
+         transform: translate(-50%, -50%);
 }
-#red {
-  background-color: #ff3f3f;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-#yellow {
-  background-color: #f3ea5f;
+
+
+.align-left {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 10px;
 }
-#blue {
-  background-color: #2bd1fc;
+.align-right {
   position: absolute;
   bottom: 0;
-  right: 0;
-}
+  right: 10px;
