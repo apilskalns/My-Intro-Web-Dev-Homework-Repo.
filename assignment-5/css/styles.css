@@ -1,32 +1,66 @@
-body {
-  background-image:("./images/seamless-background-80s14-.jpg");
-  background-repeat: repeat;
-  font-family: sans-serif;
-  text-align: center;
-}
-h1+p {
-  background-color: black;
-  color: white;
-  padding: 5px;
-}
-.text-container {
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 400px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-     -ms-transform: translate(-50%, -50%); /* IE 9 */
- -webkit-transform: translate(-50%, -50%); /* Safari 3-8 */
-         transform: translate(-50%, -50%);
-}
 
+   body {
+ 				margin:0;
+ 				padding:0;
+ 				font-family: Sans-Serif;
+ 				line-height: 1.5em;
+ 			}
 
-.align-left {
-  position: absolute;
-  bottom: 0;
-  left: 10px;
-}
-.align-right {
-  position: absolute;
-  bottom: 0;
-  right: 10px;
+ 			#header {
+ 				background: #ff48c4;
+ 				height: 100px;
+ 			}
+
+ 			#header h1 {
+ 				margin: 0;
+ 				padding-top: 15px;
+        color: white;
+ 			}
+
+ 			main {
+ 				padding-bottom: 10010px;
+ 				margin-bottom: -10000px;
+ 				float: left;
+ 				width: 100%;
+ 			}
+
+ 			#nav {
+ 				padding-bottom: 10010px;
+ 				margin-bottom: -10000px;
+ 				float: left;
+ 				width: 230px;
+ 				margin-left: -100%;
+ 				background: #2bd1fc;
+        opacity:0.5;
+ 			}
+
+ 			#footer {
+ 				clear: left;
+ 				width: 100%;
+ 				background:  	#c04df9;
+ 				text-align: center;
+ 				padding: 4px 0;
+ 			}
+
+ 			#wrapper {
+ 				overflow: hidden;
+ 			}
+
+ 			#content {
+ 				margin-left: 230px; /* Same as 'nav' width */
+ 			}
+
+ 			.innertube {
+ 				margin: 15px; /* Padding for content */
+ 				margin-top: 0;
+ 			}
+
+ 			p {
+ 				color: black;
+ 			}
+
+ 			nav ul {
+ 				list-style-type: none;
+ 				margin: 0;
+ 				padding: 0;
+ 			}
