@@ -1,0 +1,90 @@
+body {
+  background-image:url(../images/web.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+  background-repeat: no-repeat;
+
+}
+
+/*name and discriptions*/
+.name {
+  position: absolute;
+  font-size: 50pt;
+  font-family: 'Major Mono Display', monospace;
+  background-color: #E19154;
+  padding: 2px;
+  opacity: .8;
+  width: calc(50% - 18px);
+  height: 150px;
+  left: 0px;
+  top: 450px;
+  border: 7px solid #D39E96;
+}
+
+
+h1{
+  opacity: 1;
+  font-size: 60px;
+  font-family: 'Major Mono Display', monospace;
+  margin: 0px;
+}
+
+p {
+  font-size: 20pt;
+  font-weight: lighter;
+  font-family: 'Major Mono Display', monospace;
+  margin: 0px;
+}
+
+/*Assingment links*/
+.assignment {
+    margin: auto;
+    padding: 0.1em;
+    min-width: 75px;
+    font-size: 20pt;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #E19154;
+    line-height: 2.1em;
+    text-align: center;
+    font-family: RougeScript;
+    border: 5px solid #9A4B4B;
+
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+a:link {
+   color:#9A4B4B;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #D39E96;
+   font-style: italic;
+ }
+/*github link*/
+ .github-profile-link-container {
+   width: 50px;
+   height: 50px;
+   float: right;
+ }
+
+ .github-profile-link-container:hover {
+   background-color: #D39E96;
+   border-radius: 100%;
+ }
+
+ .github-profile-link-container>img {
+   width: 70px;
+   height: 70px;
+}
